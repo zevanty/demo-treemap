@@ -11,6 +11,8 @@ You'll need the following software and libraries to run this program:
 * [dom4j 1.6.1](https://dom4j.github.io/)
 * [MySQL](https://www.mysql.com/) - Optional, but highly recommended
 
+Aside from Java and MySQL, a copy of these libraries are included in the `lib` directory.
+
 # Setup
 ## Database
 This relies on MySQL database. If a MySQL database is not available, you will need to create one or modify the files in `src/util/` to work with your database. The database table must contain the index field `pid` and fields listed in `src/PatientDocument.java`.
